@@ -1,8 +1,3 @@
-@font-face {
-  font-family: main-font;
-  src: url("fonts/helveticaneue/helvecticaneue-medium");
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -47,7 +42,7 @@ h1#intro-name {
 }
 
 #intro-subheading {
-  font-size: 160%;
+  font-size: 200%;
   color: #afafaf;
   margin-bottom: 0;
 }
@@ -143,7 +138,10 @@ section#skills {
     font-size: 300%;
   }
   #intro-subheading {
-    font-size: 100%;
+    font-size: 120%;
+  }
+  p {
+    font-size: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,13 +1,5 @@
 $purple: rgb(132, 27, 231);
 
-
-
-// fonts
-@font-face{
-    font-family: main-font;
-    src: url('fonts/helveticaneue/helvecticaneue-medium');
-}
-
 html{
     scroll-behavior: smooth;
 }
@@ -16,7 +8,6 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    //font-family: main-font;
 }
 
 h1{
@@ -142,13 +133,3 @@ section#skills{
         font-size: 80%;
     }
 }
-// add more styling later
-// #skill-card:hover{
-//     h5{
-//         color: $purple;
-//         transition: 0.25s;
-//     }
-//     margin:10px;
-//     border-radius: 0 !important;
-//     border:0 !important;
-// }
