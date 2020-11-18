@@ -51,7 +51,7 @@ h1#intro-name{
 }
 
 #intro-subheading{
-    font-size:160%;
+    font-size:200%;
     color: rgb(175, 175, 175);
     margin-bottom: 0;
 }
@@ -136,10 +136,13 @@ section#skills{
         font-size: 300%;
     }
     #intro-subheading{
-        font-size:100%;
+        font-size:120%;
+    }
+    p{
+        font-size: 80%;
     }
 }
-
+// add more styling later
 // #skill-card:hover{
 //     h5{
 //         color: $purple;
