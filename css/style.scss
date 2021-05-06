@@ -1,4 +1,4 @@
-$purple: rgb(184, 109, 255);
+$purple: rgb(196, 132, 255);
 $light-purple: rgb(141, 20, 255);
 $blue: rgb(89, 0, 255);
 $font-color: rgb(230, 203, 255);
@@ -30,25 +30,23 @@ section#intro{
     text-align: center;
     justify-content: center;
     width: 100vw;
-    // height: 100vh;
     min-height: 100vh;
-    background-color: #000000;
-    background-image: url("../images/setup.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    // filter: blur(7px);
+    background-color: $light-purple;
+    // background-image: url("../images/setup.jpg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
     color: rgb(235, 235, 235);
 }
 
 h1#intro-name{
-    font-size:600%;
+    font-size:500%;
     margin-bottom: 0;
-    text-align: center;
+    // text-align: center;
 }
 
 #intro-subheading{
-    font-size:230%;
-    color: white;
+    font-size:300%;
+    color: $purple;
     margin-bottom: 0;
 }
 
@@ -90,38 +88,17 @@ h1#intro-name{
         color: rgb(175, 175, 175);
         margin-left: 7px;
         margin-right: 7px;
-        font-size: 300%;
+        font-size: 250%;
         display: inline;
     }
 }
 
-// Content
-section#about{
-    padding: 50px;
-    width: 100%;
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    width: 100vw;
-    // height:100vh;
-    // min-height: 100vh;
-    background-color: $purple;
-    // background-image: linear-gradient(to bottom right, $light-purple, $blue);
-    color: $font-color;
-}
-
-// My work section styling
-section#work{
-    padding: 50px;
-    width: 100%;
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    width: 100vw;
-    // height:100vh;
-    min-height: 100vh;
-    background-color: $white;
-    color: $font-color-2;
+#header-icon {
+    width: 450px;
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
 }
 
 
@@ -135,6 +112,16 @@ section#work{
     }
     p{
         font-size: 80%;
+    }
+    #header-icon{
+        width: 240px;
+        margin-bottom: 200px;
+        position: relative;
+    }
+    #icon-links {
+        li{ 
+            font-size: 150%;
+        }
     }
 }
 
@@ -156,5 +143,10 @@ footer{
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+#under_construction {
+    margin: 0 auto;
+    opacity: 0.5;
 }
 
